@@ -1,6 +1,7 @@
 # A Parallel Mandelbrot Set Plotter
 
 This program plots the Mandelbrot set and writes it out as a PNG file. It uses Rust's concurrency primitives to distribute the work across eight threads.
+This fork uses Rust 2021 edition with updated dependencies
 
 The book shows several different versions of this program: single- and multi-threaded versions in the "Tour of Rust" chapter, and a final version based on the Rayon crate in the "Concurrency" chapter, which makes more effective use of parallelism.
 
